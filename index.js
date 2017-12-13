@@ -6,4 +6,4 @@ const rootPath = process.env['CONFIGW_ROOT_PATH'] || process.cwd();
 
 const config = new Config(rootPath);
 
-module.export = config;
+module.exports = config;
